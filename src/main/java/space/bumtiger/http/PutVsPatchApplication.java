@@ -1,4 +1,4 @@
-package space.bumtiger.record;
+package space.bumtiger.http;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
