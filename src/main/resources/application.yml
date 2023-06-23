@@ -1,0 +1,24 @@
+# 기본 포트 : 8080
+server:
+  port: 8080
+  
+spring:
+  h2:
+    console:
+      enabled: true # 기본: false
+
+# 기본 값: h2-console
+      path: /console
+# 봄은 기본으로 임의 이름 사용함
+  datasource:
+    generate-unique-name: false
+    
+# 기본 값 : testdb
+#    name: PUBLIC
+    
+# 기본 값 : sa
+    username: park
+    
+# 기본 값 : (없음)    
+    password: 1234 
+            
